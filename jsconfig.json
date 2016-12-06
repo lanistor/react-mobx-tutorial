@@ -1,0 +1,14 @@
+/** vscode 配置文件 */
+{
+
+	"compilerOptions": {
+
+		"target": "ES6",
+
+		"module": "commonjs",
+
+		"experimentalDecorators" : true
+
+	}
+
+}
