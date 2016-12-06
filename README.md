@@ -4,8 +4,8 @@ An empty project builded by React + Mobx + React-Flex-Router.
   * `Technology System` : React + Mobx + React-Flex-Router
   * `Build System` : Webpack + Babel + Eslint + React-Hot-Loader
 ## Install
-```npm install```
+`npm install`
 ## Example
-```npm run example```
+`npm run example`
 ## Visit
-```http://localhost:8601```
+`http://localhost:8601`
