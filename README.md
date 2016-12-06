@@ -8,7 +8,7 @@ An empty project builded by React + Mobx + React-Flex-Router.
 ## Install
 `npm install`
 
-## Example
+## Run Example
 `npm run example`
 
 ## Visit
