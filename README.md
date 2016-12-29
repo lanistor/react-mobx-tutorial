@@ -1,5 +1,5 @@
 # React-Mobx-Tutorial
-An tutorial of React with mobx.
+A tutorial of React with mobx.
 
 ## Introduction
   * `Library` : React + Mobx + React-Flex-Router
