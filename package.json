@@ -1,17 +1,17 @@
 {
-  "name": "example-react",
-  "scripts": {
-    "example": "node example/serve.js",
-    "start": "node serve.js",
-    "build": "node "
-  },
-  "dependencies": {
+	"name": "React-Mobx-Tutorial",
+	"scripts": {
+		"start": "node serve.js"
+	},
+	"dependencies": {
+		"react-flex-router": "^0.0.9",
     "babel-core": "^6.18.2",
     "mobx": "^2.6.4",
     "mobx-react": "^4.0.3",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-flex-router": "latest"
+    "react-flex-router": "latest",
+		"g2-mobile": "^2.1.8"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",

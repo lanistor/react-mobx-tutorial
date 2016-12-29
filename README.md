@@ -1,15 +1,14 @@
-# project-example-react
-An empty project builded by React + Mobx + React-Flex-Router.
+# React-Mobx-Tutorial
+An tutorial of React with mobx.
 
-## Introduction
-  * `Technology System` : React + Mobx + React-Flex-Router
-  * `Build System` : Webpack + Babel + Eslint + React-Hot-Loader
+## Usage
+```
+git clone git@github.com:vifird/react-mobx-tutorial.git
+```
 
-## Install
-`npm install`
-
-## Run Example
-`npm run example`
-
-## Visit
-`http://localhost:8601`
+## Run
+```
+cd react-mobx-tutorial
+npm run start
+```
+Then open `http://localhost:8700`

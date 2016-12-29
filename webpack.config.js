@@ -18,8 +18,8 @@ module.exports = {
 			{ test: /\.js$/, exclude: /node_modules/, loader: 'eslint'}
 		],
 		loaders: [
-			{ test: /\.js$/, exclude: /node_modules/, loaders: ['react-hot', 'babel'] },
-			{ test: /\.css$/, loader: 'style!css' }
+			{ test: /\.js$/, exclude: /node_modules/, loader: 'react-hot!babel'},
+			{ test: /\.scss$/, loader: 'style!css!sass' }
 		]
 	},
 	plugins:[
@@ -27,5 +27,13 @@ module.exports = {
 		new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.js' }),
 		new webpack.HotModuleReplacementPlugin()
 	],
+  resolve:{
+    alias: {
+      
+    }
+  },
+  externals: {
+    'jquery': 'window.$'
+  },
 	devtool: 'inline-source-map'
 }
