@@ -6,14 +6,15 @@ A tutorial of React with mobx.
   * `Environment` : Webpack + Babel + React-Hot-Loader + EsLint
   * `Can Use` : ES6. ES7. State-1. Decorators.
 
-## Usage
+## Clone
 ```
 git clone git@github.com:vifird/react-mobx-tutorial.git
 ```
 
-## Run
+## Run Example
 ```
 cd react-mobx-tutorial
+npm install
 npm run start
 ```
 Then open `http://localhost:8700`
